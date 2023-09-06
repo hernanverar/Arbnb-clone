@@ -16,14 +16,14 @@
   top: 400px;
 }
 
-.search > input {
+.search > input:focus {
   outline-width: 0;
 }
 
-.search button {
+.search > button {
   position: absolute;
   left: 0;
-  top: 500px;
+  top: 470px;
   text-transform: inherit !important;
   background-color: rgb(167, 240, 149);
   width: 400px;
