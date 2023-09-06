@@ -21,15 +21,24 @@
   flex: 1;
   align-items: center;
   max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  border: 2px solid rgb(230, 167, 167);
+  border-radius: 1000px;
+}
+
+.header__center > input {
   padding: 10%;
-  height: 30%;
-  border: 1px;
-  border-radius: 950px;
+  border: none;
+  outline-width: 0;
 }
 
 .header__right {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 15vw;
+  margin-right: 50px;
 }
 
 
