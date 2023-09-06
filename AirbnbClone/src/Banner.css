@@ -1,17 +1,24 @@
 .banner {
-  background-color: rgb(140, 231, 201);
-  height: 50vh;
   position: relative;
 }
 
+.banner__image-container {
+  position: relative;
+}
+
+.banner__image {
+  width: 100%;
+  height: auto;
+}
+
 .banner__info {
-  background-color: rgb(72, 69, 69);
-  color: aliceblue;
-  padding-top: 25vh;
-  padding-left: 30px;
-  padding-right: 50px;
-  padding-bottom: 30px;
-  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
 }
 
 .banner__info > button {
