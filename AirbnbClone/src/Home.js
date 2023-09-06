@@ -4,6 +4,7 @@ import Banner from './Banner';
 import Card from './Card';
 import Malaga from './images/Malaga.jpeg';
 import Granada from './images/Granada.jpeg';
+import Guanajuato from './images/Guanajuato.jpeg';
 
 function Home() {
   return (
@@ -13,12 +14,10 @@ function Home() {
       <Banner />
 
       <div className='home__section'>
-
         <Card src={Malaga} />
         <Card src={Granada}/>
-        
-
-      </div>
+        <Card src={Guanajuato}/>
+        </div>
     </div>
   )
 }

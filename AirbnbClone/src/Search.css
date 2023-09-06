@@ -16,9 +16,6 @@
   top: 400px;
 }
 
-.search > input:focus {
-  outline-width: 0;
-}
 
 .search > button {
   position: absolute;

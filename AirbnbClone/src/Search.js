@@ -26,10 +26,10 @@ function Search() {
     <div className="search">
       <DateRangePicker ranges={[selectionRange]} onChange={handleSelectDay} />
       <h2>
+      <input min={0} defaultValue={2} type="number" />
         Number of Guests
         <HailSharpIcon />
       </h2>
-      <input min={0} defaultValue={2} type="number" />
       <Button>Search Airbnb</Button>
     </div>
   );
