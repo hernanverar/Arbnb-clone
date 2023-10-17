@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Created by Hernan Verar
+
+## follow this link to deploy: https://jade-klepon-2c1c23.netlify.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
